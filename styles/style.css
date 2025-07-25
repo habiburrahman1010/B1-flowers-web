@@ -1,0 +1,263 @@
+.noto-serif-normal {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+
+    font-style: normal;
+
+}
+
+/* ------------navbar style------------------ */
+
+
+nav li {
+
+    list-style: none;
+    font-size: 24px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black
+}
+
+.shop-us {
+    color: #8987A1;
+}
+
+.home {
+    font-weight: bold;
+}
+
+.cart {
+    display: flex;
+    gap: 10px;
+}
+
+.cart-logo {
+    width: 30px;
+    height: 30px;
+}
+
+.nav-list-item {
+    display: flex;
+    gap: 50px;
+}
+
+.nav-container {
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 150px;
+
+}
+
+.hero-container {
+
+    display: flex;
+    margin: 120px 150px;
+    margin-top: 200px;
+    align-items: flex-end;
+
+}
+
+.hero-title {
+    font-size: 65px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.hero-title span {
+    color: #E95A08;
+}
+
+.hero-description {
+    font-size: 22px;
+    color: #00000093;
+}
+
+/* ----------------nav style END------------------ */
+
+
+/* -----------------------main start-------------------- */
+
+.max-width {
+    margin-left: 150px;
+    margin-right: 150px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.main-section {
+
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+
+.main-title {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.main-title span {
+    color: #E95A08;
+
+}
+
+.main-description {
+    font-size: 22px;
+    color: #00000093;
+
+}
+
+.box-container {
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+
+}
+
+.box {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.box-title {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.box-price {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.box>button {
+    width: 100%;
+    height: 50px;
+    background-color: #E95A08;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    padding: 18px 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------------------- */
+
+
+
+
+
+@media screen and (max-width:576px) {
+
+    /* --------------nav RESPONS start----------------- */
+
+    .home,
+    .shop-us {
+        display: none;
+    }
+
+    .nav-container {
+
+        display: flex;
+        margin-left: 0;
+        margin-right: 0;
+        justify-content: space-between;
+
+        width: 100%;
+    }
+
+
+    .card {
+
+        gap: 0px;
+    }
+
+    .cart-logo {
+        height: 25px;
+        width: 25px;
+    }
+
+
+    .cart a {
+        font-size: 16px;
+
+    }
+
+
+    .hero-container {
+        flex-direction: column-reverse;
+        margin: 28px 0px;
+
+        width: fit-content;
+    }
+
+    .hero-img {
+        width: 100%;
+    }
+
+    .hero-title {
+        font-size: 33px;
+    }
+
+    .hero-description {
+
+        width: 100%;
+        font-size: 18px;
+    }
+
+
+    /* -----------------box responsibe------------- */
+
+
+    .max-width {
+        margin-left: 0px;
+        margin-right: 0px;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+
+    .box-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        width: 100%;
+    }
+
+    .box {
+        width: 160px;
+    }
+
+    .box>img {
+        width: 100%;
+    }
+
+    .box>button {
+        padding: 0;
+    }
+
+    .main-title {
+        font-size: 38px;
+    }
+
+    .main-description {
+        font-size: 18px;
+    }
+
+    /* -----------------------------Box end */
+
+}
