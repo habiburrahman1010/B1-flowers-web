@@ -149,7 +149,7 @@ nav li a {
 /* ----------------------------------------- */
 
 
-.flower-lover-container{
+.flower-lover-container {
 
     margin: 0 auto;
     display: flex;
@@ -157,25 +157,25 @@ nav li a {
     gap: 60px;
 }
 
-.flower-lover-img{
-   position: relative;
-    
+.flower-lover-img {
+    position: relative;
+
 }
 
-.badge-img{
+.badge-img {
     top: 0;
     right: 0;
-     position: absolute;
+    position: absolute;
     height: 286px;
     width: 286px;
 }
 
-.flower-title{
+.flower-title {
     font-size: 50px;
     font-weight: bold;
 }
 
-.flower-lover-text> ul li{
+.flower-lover-text>ul li {
     font-size: 22px;
     margin-bottom: 20px;
 
@@ -183,9 +183,156 @@ nav li a {
 }
 
 
+/* --------------------------------- */
+
+.offer-main-title {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.offer-main-title span {
+    color: #E95A08;
+}
+
+.offer-description {
+    font-size: 22px;
+    color: #00000093;
+    text-align: center;
+}
+
+.offer-img-container {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+
+}
+
+.offer-img-2 {
+    background-image: url(../image/deal-zabo.png);
+
+
+    width: 740px;
+    height: 424px;
+
+    border-radius: 20px;
+}
+
+.plant-text {
+    display: block;
+
+
+    text-align: center;
+
+    margin-top: 150px;
+}
+
+.plant-text a {
+
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.zabu-text {
+
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: bold;
+
+}
+
+
+.bloom-ana {
+    width: 365px;
+    height: 198px;
+    background-color: #8987A1;
+    border-radius: 20px;
+}
+
+.bloom-img {
+    background-image: url(../image/deal-bloom.png);
+    background-repeat: no-repeat;
+
+}
+
+.ana-img {
+    background-image: url(../image/deal-ana.png);
+    background-repeat: no-repeat;
+}
+
+.bloom-text {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.ana-text {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.plant-text-2 {
+    display: block;
+    text-align: center;
+
+}
+
+/* ---------------------------------------- */
+
+.new-max-width {
+    max-width: 100%;
+}
+
+.serch-section {
+    background-image: url(../image/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 530px;
+    margin-top: 130px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.search-box h4 {
+    display: block;
+
+    padding: 200px 300px;
 
 
 
+}
+
+.search-title {
+    font-size: 50px;
+    font-weight: bold;
+
+    color: #ffffff;
+}
+
+.input {
+    width: 600px;
+    height: 50px;
+    padding-left: 30px;
+    border: none;
+}
+
+.submit {
+    width: 180px;
+    height: 53px;
+    color: #ffffff;
+    background-color: #E95A08;
+    border: none;
+}
 
 
 
@@ -295,26 +442,42 @@ nav li a {
     /* -----------------------------Box end--------------------- */
 
 
-    .flower-lover-container{
+    .flower-lover-container {
         flex-direction: column;
 
     }
 
-    .badge-img{
+    .badge-img {
         display: none;
     }
 
-    .man-img{
+    .man-img {
         width: 370px;
         justify-content: center;
         align-items: center;
-        margin-left: 15px;
+        margin-left: 20px;
+
     }
 
-    .flower-lover-text{
+    .flower-lover-text {
         width: 370px;
     }
 
     /* ------------------------------------------ */
+
+    .offer-img-container {
+        flex-direction: column;
+    }
+
+
+    .offer-img-2 {
+        width: 365px;
+    }
+
+    .offer-description {
+        width: 360px;
+        margin: 0 auto;
+    }
+
 
 }
